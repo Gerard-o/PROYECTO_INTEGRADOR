@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">TestPI</string>
+    <string name="TEMPERATURA">TEMPERATURA</string>
+    <string name="LONGITUD">LONGITUD</string>
+    <string name="PESO">PESO</string>
+    <string name="DIVISA">DIVISA</string>
+    <string name="BINARIO">BINARIO</string>
+    <string name="XConverter">Conversor de <Unidades></Unidades></string>
+    <string name="AplicacionesMóvilesI">Aplicaciones Móviles I</string>
+    <string name="CESDE">CESDE</string>
+    <string name="T2023">2023</string>
+    <string name="Calcular">Calcular</string>
+
+
+    <string-array name="Temperatura">
+        <item>De Celsius a Fahrenheit</item>
+        <item>De Fahrenheit a Celsius</item>
+        <item>De Celsius a Kelvin</item>
+        <item>De Kelvin a Celsius</item>
+        <item>De Fahrenheit a Kelvin</item>
+        <item>De Kelvin a Fahrenheit</item>
+    </string-array>
+
+    <string-array name="Peso">
+        <item>De Kilogramos a Libras</item>
+        <item>De Libras a Kilogramos</item>
+        <item>De Gramos a Libras</item>
+        <item>De Libras a Gramos</item>
+    </string-array>
+
+    <string-array name="Longitud">
+        <item>De Metros a Pies</item>
+        <item>De Pies a Metros</item>
+        <item>De Millas a Kilómetros</item>
+        <item>De Kilómetros a Millas</item>
+    </string-array>
+
+    <string-array name="Divisa">
+        <item>De USDT a EURO</item>
+        <item>De EURO a USDT</item>
+        <item>De USDT a COP</item>
+        <item>De COP a USDT</item>
+    </string-array>
+
+    <string-array name="Binario">
+        <item>Decimal->Binario</item>
+        <item>Binario->Decimal</item>
+        <item>Decimal->Hexadecimal</item>
+        <item>Hexadecimal->Decimal</item>
+    </string-array>
+</resources>

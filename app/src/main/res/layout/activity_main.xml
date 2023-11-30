@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@mipmap/fondo4"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/idConversor"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:text="Conversor de Unidades"
+        android:textColor="@color/white"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="226dp"
+        android:layout_height="217dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@mipmap/logoxc"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+    <Button
+        android:id="@+id/btnTemperatura"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="250dp"
+        android:backgroundTint="#29B6F6"
+        android:text="@string/TEMPERATURA"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#283593"
+        app:icon="@android:drawable/btn_star_big_on" />
+
+    <Button
+        android:id="@+id/btnLongitud"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="250dp"
+        android:backgroundTint="#29B6F6"
+        android:text="@string/LONGITUD"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#283593"
+        app:icon="@android:drawable/btn_star_big_on" />
+
+    <Button
+        android:id="@+id/btnPeso"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="250dp"
+        android:backgroundTint="#29B6F6"
+        android:text="@string/PESO"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#283593"
+        app:icon="@android:drawable/btn_star_big_on" />
+
+    <Button
+        android:id="@+id/btnDivisa"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="250dp"
+        android:backgroundTint="#29B6F6"
+        android:text="@string/DIVISA"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#283593"
+        app:icon="@android:drawable/btn_star_big_on" />
+
+    <Button
+        android:id="@+id/btnBinario"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="250dp"
+        android:backgroundTint="#29B6F6"
+        android:text="BINARIO"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#283593"
+        app:icon="@android:drawable/btn_star_big_on" />
+
+    <TextView
+        android:id="@+id/resultadoPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/AplicacionesMóvilesI"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CESDE"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/T2023"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+  <TextView
+      android:id="@+id/idBinario"
+      android:layout_width="wrap_content"
+
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="40dp"
+      android:text="BINARIO"
+      android:textSize="48sp"
+      android:textStyle="bold" />
+
+  <Spinner
+      android:id="@+id/spinnerBinario"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="20dp"
+      android:entries="@array/Binario"
+      android:minWidth="250dp"
+      android:minHeight="48dp" />
+
+  <EditText
+      android:id="@+id/valorBinario"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:width="250dp"
+      android:ems="10"
+      android:inputType="numberDecimal"
+      tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+  <Button
+      android:id="@+id/btnCalcularBinario"
+      style="@style/Widget.Material3.Button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:width="250dp"
+      android:backgroundTint="#E91E63"
+      android:text="@string/Calcular"
+      android:textAlignment="center"
+      android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+      android:textColor="#0B0B0B"
+      android:textSize="34sp" />
+
+  <TextView
+      android:id="@+id/resultadoBinario"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="50dp"
+      android:text="0"
+      android:textAlignment="center"
+      android:textSize="34sp" />
+  <Button
+      android:id="@+id/BorrarBinario"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:backgroundTint="#343850"
+      android:text="Borrar"
+      android:textColor="#0B0B0B"
+      android:textSize="24sp" />
+
+</LinearLayout>

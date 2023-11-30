@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/idTemperatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:autoText="false"
+        android:backgroundTint="#0B0B0B"
+        android:text="TEMPERATURA"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinnerTemperatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:entries="@array/Temperatura"
+        android:minWidth="250dp"
+        android:minHeight="70dp" />
+
+    <EditText
+        android:id="@+id/valorTemperatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="250dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnCalcularTemperatura"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:width="250dp"
+        android:backgroundTint="#E91E63"
+        android:text="@string/Calcular"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#0B0B0B"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/resultadoTemperatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/BorrarTemperatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#343850"
+        android:text="Borrar"
+        android:textColor="#0B0B0B"
+        android:textSize="24sp" />
+
+</LinearLayout>
